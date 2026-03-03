@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<style>
+		html, body {
+				height: 100%;
+				margin: 0;
+				padding: 0;
+		}
+
+ 		body { 
+					background-image: url('dragonballl.jpg');
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-attachment: fixed;
+					min-height: 100vh;
+}
+
+</style>
+</head>
+
+
+
+
+
+
+<body>
+
+<title> Dragon Ball </title>
+
+<h1 style=	"color: #1C1B18;
+		background-color:#e9830f;
+		line-height: 100px;
+		font-family: sans-serif;
+		font-size:50px;
+		margin: 0;
+		user-select: none;
+		text-align: center;"
+>
+
+		Dragon Ball Art Styles
+</h1>
+
+<p style= 	"background-color: #e9830f;
+		font-family: italic;
+		font-size: 25px;
+		margin: 0;
+		line-height: 40px;
+		user-select: none;
+		text-align: center;"
+>		
+
+A page exploring the differences in art style between each Dragon Ball era. 
+
+</p>
+
+
+<style>
+
+.banner-grid {
+	display: grid;
+	grid-template-columns: 1fr 0.6fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	height: 80vh;
+	width: 98%;
+	/*border: 6px double white;*/
+}
+
+.banner:hover {
+	border: 6px double white;
+	transition: border 0.3s ease;;
+}
+
+.banner {
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 10px double rgb(61, 61, 61);
+	width: 90%;
+	height: 90%;
+	min-height: 180px;
+	user-select: none;
+	cursor: pointer;
+}
+
+
+
+.top-left { grid-area: 1/1; transform: translate(30px, 80px) scale(1.0); }
+.top-right { grid-area: 1/3; transform: translate(50px,100px) scale(1.0);}
+.center { grid-area: 2/2; transform: translate(30px, 30px) scale(1.0);}
+.bottom-left { grid-area: 3/1; transform: translate(20px,0px) scale(1.0);}
+.bottom-right { grid-area: 3/3; transform: translate(70px,0px) scale(0.90); }
+
+
+.top-left { background-image: url('dragonball2button.jpg') ; }
+.top-right { background-image: url('dragonball3button.jpg') ; }
+.center { background-image: url('dragonball1button.jpg') ; }
+.bottom-left { background-image: url('dragonball4button.jpg') ; }
+.bottom-right { background-image: url('dragonball5button.jpg') ; }
+
+</style>
+
+
+
+<div class="banner-grid">
+	<a href="dragonballz.html" class="banner top-left"></a>
+	<a href="dragonball1.html" class="banner center"></a>
+	<a href="dragonballgt.html" class="banner top-right"></a>
+	<a href="dragonballsuper.html" class="banner bottom-left"></a>
+	<a href="dragonballdaima.html" class="banner bottom-right"></a>
+</div>
+
+
+</body>
+</html>
